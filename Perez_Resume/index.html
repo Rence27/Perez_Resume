@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Flawrence C. Perez- Resume</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f3f3f3;
+      color: #000;
+    }
+
+    .resume-container {
+      display: flex;
+      max-width: 1000px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .left-column {
+      background-color: #2d2d2d;
+      color: white;
+      width: 35%;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    .left-column img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid #ffffff;
+    }
+
+    .section-title {
+      font-weight: bold;
+      font-size: 18px;
+      margin: 20px 0 10px;
+      border-bottom: 1px solid #888;
+      padding-bottom: 5px;
+      width: 100%;
+    }
+
+    .left-column p,
+    .left-column a {
+      font-size: 14px;
+      margin: 5px 0;
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    .left-column ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .left-column li {
+      margin-bottom: 8px;
+      padding-left: 12px;
+      position: relative;
+    }
+
+    .left-column li::before {
+      content: "❖";
+      position: absolute;
+      left: 0;
+      color: #00bcd4;
+    }
+
+    .right-column {
+      width: 65%;
+      padding: 40px 30px;
+      background-color: #ffffff;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .right-column h1 {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+
+    .right-column h2 {
+      font-size: 16px;
+      color: #555;
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+
+    .right-column .section {
+      margin-bottom: 30px;
+    }
+
+    .right-column .section-title {
+      color: #000;
+      font-size: 18px;
+      font-weight: bold;
+      border-bottom: 1px solid #aaa;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+    }
+
+    .job-title {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .job-company {
+      font-style: italic;
+    }
+
+    .job-dates {
+      float: right;
+      font-size: 13px;
+      color: #777;
+    }
+
+    .download-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    @media print {
+      .download-btn {
+        display: none;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .resume-container {
+        flex-direction: column;
+      }
+
+      .left-column,
+      .right-column {
+        width: 100%;
+        border-radius: 0;
+      }
+
+      .job-dates {
+        float: none;
+        display: block;
+        margin-top: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="resume-container">
+    <div class="left-column">
+      <img src="c:\Users\CMU_QAIAO MARCO\Pictures\Saved Pictures\pogiiii.jpg" alt="Profile Photo" />
+      <h2>Contact</h2>
+      <p>📍 Aranguren Capas, Tarlac</p>
+      <p>📞 09152678456</p>
+      <p>✉️ perezflawrence@gmail.com</p>
+      <p>🔗 linkedin.com/in/perez.flaw</p>
+
+      <div class="section-title">Skills</div>
+      <ul>
+        <li>Time Management</li>
+        <li>Active listening</li>
+        <li>Teamwork</li>
+        <li>Good leader</li>
+
+      </ul>
+
+      <div class="section-title">Languages</div>
+      <ul>
+        <li>English</li>
+        <li>Tagalog</li>
+        <li>Kapangpangan</li>  
+      </ul>
+    </div>
+
+    <div class="right-column">
+      <h1>Flawrence C. Perez</h1>
+      <h2>I.T</h2>
+
+      <a class="download-btn" onclick="window.print()">Download Resume</a>
+
+      <div class="section">
+        <div class="section-title">Profile</div>
+        <p>
+          To use my interpersonal abilities to help a business that prioritizes the customers service and experience reach its objectives
+        </p>
+      
+
+      <div class="section">
+        <div class="section-title">Education</div>
+        <p><strong>Elementary</strong><br>
+        Aranguren Integrated School<br>
+        Aranguren, Capas, Tarlac</p>
+        <p>S.Y. 2011-2017
+
+        </p>
+        <p><strong>Junior High School</strong><br>
+        Aranguren Integrated School<br>
+        Aranguren, Capas, Tarlac</p>
+        <p>S.Y. 2017-2021
+
+</p>
+<p><strong>Senior High School</strong><br>
+        Aranguren Integrated School<br>
+        Aranguren, Capas, Tarlac</p>
+        <p>S.Y. 2021
+
+
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
